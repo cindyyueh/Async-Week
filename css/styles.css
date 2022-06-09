@@ -188,6 +188,11 @@ h6,
   font-size: 1rem;
 }
 
+.intro-line {
+  text-decoration: underline;
+  text-decoration-color: #7a97bf;
+}
+
 p {
   margin-top: 0;
   margin-bottom: 1rem;
@@ -211,6 +216,19 @@ address {
 ol,
 ul {
   padding-left: 2rem;
+}
+
+.technologies {
+  list-style: none;
+}
+
+ul .technology::before {
+  content: '\2022';
+  color: #7a97bf;
+  font-weight: bold;
+  display: inline-block;
+  width: 2rem;
+  margin-left: -0.5rem;
 }
 
 ol,
@@ -277,7 +295,7 @@ a {
   text-decoration: underline;
 }
 a:hover {
-  color: #50817e;
+  color: #000;
 }
 
 a:not([href]):not([class]),
@@ -526,6 +544,22 @@ progress {
   display: none !important;
 }
 
+.headshot:hover {
+  transform: scale(1.1);
+}
+
+.headshot {
+  transition: transform 0.2s;
+}
+
+.name:hover {
+  transform: scale(1.1);
+}
+
+.name {
+  transition: transform 0.2s;
+}
+
 .lead {
   font-size: 1.25rem;
   font-weight: 300;
@@ -682,6 +716,11 @@ progress {
 .icon-boba {
   background-image: url('../assets/bobabigger.png');
   background-position: center center;
+  transition: transform 0.2s
+}
+
+.icon-boba:hover {
+  transform: scale(1.1)
 }
 
 @media (min-width: 576px) {
@@ -3149,13 +3188,13 @@ fieldset:disabled .btn {
   border-color: #7a97bf;
 }
 .btn-primary:hover {
-  color: #fff;
-  background-color: #558985;
-  border-color: #50817e;
+  color: #000;
+  background-color: #f4f4ed;
+  border-color: #504b43;
 }
 .btn-check:focus + .btn-primary,
 .btn-primary:focus {
-  color: #fff;
+  color: #000;
   background-color: #558985;
   border-color: #50817e;
   box-shadow: 0 0 0 0.25rem rgba(123, 175, 172, 0.5);
