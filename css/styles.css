@@ -716,11 +716,11 @@ progress {
 .icon-boba {
   background-image: url('../assets/bobabigger.png');
   background-position: center center;
-  transition: transform 0.2s
+  transition: transform 0.2s;
 }
 
 .icon-boba:hover {
-  transform: scale(1.1)
+  transform: scale(1.1);
 }
 
 @media (min-width: 576px) {
@@ -5001,10 +5001,10 @@ fieldset:disabled .btn {
   background-clip: border-box;
   border: 1px solid rgba(0, 0, 0, 0.125);
   border-radius: 0.25rem;
-  transition: transform 0.2s
+  transition: transform 0.2s;
 }
 .card:hover {
-  transform: scale(1.1)
+  transform: scale(1.1);
 }
 .card > hr {
   margin-right: 0;
@@ -12039,7 +12039,7 @@ body {
       rgba(0, 0, 0, 0.5) 75%,
       #000 100%
     ),
-    url('../assets/img/bg-masthead.jpg');
+    url('../assets/img/bg-masthead.png');
   background-position: center;
   background-repeat: no-repeat;
   background-attachment: scroll;
