@@ -7237,7 +7237,7 @@ fieldset:disabled .btn {
   white-space: nowrap !important;
   border: 0 !important;
 }
-
+/*
 .stretched-link::after {
   position: absolute;
   top: 0;
@@ -7246,7 +7246,7 @@ fieldset:disabled .btn {
   left: 0;
   z-index: 1;
   content: '';
-}
+} */
 
 .text-truncate {
   overflow: hidden;
